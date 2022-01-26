@@ -9,7 +9,7 @@
 <body>
   <button onclick="testfun()">Click Me</button>
   <h1>{{count}}</h1>
-  {% count = 0 %}
+  {% set count = 0 %}
   {% for time in data %}
     
     <p>{{count}}Date: {{time.month}}, {{time.day}} {{time.year}}, {{time.hour}}:{{time.minute}}:{{time.second}}</p>
